@@ -8,7 +8,6 @@ router.post("/list", async function (req, res) {
 
     // res.send("This is notes page");
   });
-//maigay hoon
   router.post("/add", async function (req, res) {
     // res.json(req.body);
     // var found = await Note.find({userid:req.body.id})

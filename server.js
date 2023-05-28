@@ -14,7 +14,7 @@ mongoose
   )
   .then(function () {
     app.get("/", function (req, res) {
-      const response = {message : "API works! "};
+      const response = {statuscode: res.statusCode, message : "API works! "};
       res.json(response);
     });
     // durgi 
