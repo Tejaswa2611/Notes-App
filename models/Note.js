@@ -6,6 +6,7 @@ const noteSchema = mongoose.Schema({
         unique: true,
         required: true
     },
+    //bacha
     userid: {
         type:String,
         required: true,

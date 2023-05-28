@@ -17,7 +17,7 @@ mongoose
       const response = {message : "API works! "};
       res.json(response);
     });
-
+    // durgi 
     // const noteRouter = require('./Routes/Note.js');
     app.use("/notes",noteRouter);
     
